@@ -1,0 +1,52 @@
+-> BANCO DE DADOS IMOBILIÁRIA <-
+
+create database imobiliária;
+use imobiliária;
+
+create table vendedor
+
+(cod_vendedor int,
+nome_vendedor varchar(40),
+primary key (cod_vendedor));
+
+create table imóvel
+
+(cod_imóvel int,
+nome_imóvel varchar(40),
+primary key (cod_imóvel));
+
+create table comprador
+
+(cod_comprador int,
+nome_comprador varchar(40),
+primary key (cod_comprador));
+
+create table oferta
+
+(cod_oferta int,
+nome_oferta varchar(40),
+primary key (cod_oferta));
+
+create table estado
+
+(cod_estado int,
+nome_estado varchar(40),
+primary key (cod_estado));
+
+create table cidade
+
+(cod_cidade int,
+nome_cidade varchar(40),
+primary key (cod_cidade));
+
+create table bairro
+
+(cod_bairro int,
+nome_bairro varchar(40),
+primary key (cod_bairro));
+
+create table faixa_imóvel
+
+(cod_faixa_imóvel int,
+nome_faixa_imóvel varchar(40),
+primary key (cod_faixa_imóvel));
